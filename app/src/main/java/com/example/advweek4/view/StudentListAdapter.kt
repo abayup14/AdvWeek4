@@ -4,8 +4,8 @@ import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.navigation.Navigation
 import androidx.recyclerview.widget.RecyclerView
-import com.example.advweek4.databinding.StudentListItemBinding
 import com.example.advweek4.model.Student
+import com.example.advweek4.databinding.StudentListItemBinding
 
 class StudentListAdapter(val studentList:ArrayList<Student>):RecyclerView.Adapter<StudentListAdapter.StudentViewHolder>() {
     class StudentViewHolder(var binding: StudentListItemBinding):RecyclerView.ViewHolder(binding.root)

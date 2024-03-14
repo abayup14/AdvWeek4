@@ -7,9 +7,9 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
+import com.example.advweek4.viewmodel.DetailViewModel
 import com.example.advweek4.R
 import com.example.advweek4.databinding.FragmentStudentDetailBinding
-import com.example.advweek4.viewmodel.DetailViewModel
 
 class StudentDetailFragment : Fragment() {
     private lateinit var viewModel:DetailViewModel
