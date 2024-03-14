@@ -31,10 +31,12 @@ class StudentDetailFragment : Fragment() {
         viewModel.fetch()
 
         viewModel.studentLD.observe(viewLifecycleOwner, Observer {
-            binding.txtID.setText(it.id)
-            binding.txtName.setText(it.name)
-            binding.txtBOD.setText(it.dob)
-            binding.txtPhone.setText(it.phone)
+            with(binding) {
+                txtID.setText(it.id)
+                txtName.setText(it.name)
+                txtBOD.setText(it.dob)
+                txtPhone.setText(it.phone)
+            }
         })
     }
 
