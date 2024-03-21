@@ -8,7 +8,6 @@
     <fragment
         android:id="@+id/studentListFragment"
         android:name="com.example.advweek4.view.StudentListFragment"
-        android:label="Student List"
         tools:layout="@layout/fragment_student_list">
         <action
             android:id="@+id/actionStudentDetail"
@@ -17,6 +16,5 @@
     <fragment
         android:id="@+id/studentDetailFragment"
         android:name="com.example.advweek4.view.StudentDetailFragment"
-        android:label="Student Detail"
         tools:layout="@layout/fragment_student_detail" />
 </navigation>

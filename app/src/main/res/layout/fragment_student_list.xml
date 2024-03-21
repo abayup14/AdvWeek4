@@ -9,6 +9,7 @@
     tools:context=".view.StudentListFragment">
 
     <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        android:id="@+id/refreshLayout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:context=".view.StudentListFragment">
@@ -21,7 +22,6 @@
                 android:id="@+id/recView"
                 android:layout_width="409dp"
                 android:layout_height="729dp"
-                android:layout_marginTop="75dp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
