@@ -46,7 +46,6 @@ class StudentListFragment : Fragment() {
                 refreshLayout.isRefreshing = false
             }
         }
-
     }
 
     fun observeViewModel() {
